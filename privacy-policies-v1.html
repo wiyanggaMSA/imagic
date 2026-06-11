@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Privacy Policy – iMagic Consult</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for iMagic Consult Chrome Extension."
+  />
+
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --heading: #111827;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 48px;
+      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.06);
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: var(--heading);
+      font-size: 36px;
+      line-height: 1.2;
+    }
+
+    .updated {
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      color: var(--heading);
+      font-size: 22px;
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    h3 {
+      color: var(--heading);
+      font-size: 17px;
+      margin-top: 24px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .notice {
+      background: var(--accent-soft);
+      border: 1px solid #bfdbfe;
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 28px 0;
+    }
+
+    .notice strong {
+      color: var(--heading);
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 24px 14px;
+      }
+
+      .card {
+        padding: 28px 22px;
+        border-radius: 14px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <article class="card">
+      <div class="eyebrow">Privacy Policy</div>
+
+      <h1>Privacy Policy – iMagic Consult</h1>
+      <p class="updated">Last Updated: June 2026</p>
+
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          iMagic Consult is a Chrome Extension designed to assist authorized
+          healthcare professionals in managing consultation workflows, templates,
+          and clinical documentation within approved healthcare systems.
+        </p>
+        <p>
+          This Privacy Policy explains what information is processed, how it is
+          used, stored, and protected.
+        </p>
+
+        <div class="notice">
+          <strong>Important:</strong>
+          iMagic Consult is intended for limited internal use by authorized users
+          only. The extension does not provide a public registration form, and
+          access is restricted to approved members of the internal user community.
+        </div>
+      </section>
+
+      <section>
+        <h2>Information We Process</h2>
+        <p>The extension may process the following categories of information:</p>
+
+        <h3>Account Information</h3>
+        <ul>
+          <li>User email address</li>
+          <li>Authentication credentials used for authorized access</li>
+          <li>Session identifiers</li>
+          <li>Access tokens and refresh tokens</li>
+        </ul>
+
+        <h3>Configuration Data</h3>
+        <ul>
+          <li>User preferences</li>
+          <li>Template settings</li>
+          <li>Selector configurations</li>
+          <li>Personalization settings</li>
+          <li>Extension settings stored locally in the browser</li>
+        </ul>
+
+        <h3>Clinical Workflow Data</h3>
+        <p>
+          Depending on user actions and authorized access within the healthcare
+          platform, the extension may read or temporarily process clinical
+          workflow data displayed on the relevant healthcare system page,
+          including:
+        </p>
+
+        <ul>
+          <li>Patient identification information</li>
+          <li>Medical record numbers</li>
+          <li>Demographic information</li>
+          <li>Consultation notes</li>
+          <li>Diagnoses</li>
+          <li>Vital signs</li>
+          <li>Laboratory information</li>
+          <li>Treatment information</li>
+        </ul>
+
+        <div class="notice">
+          <strong>Clinical data handling:</strong>
+          Clinical workflow data and patient-related data are processed locally
+          within the user’s browser and within the authorized healthcare system
+          used by the healthcare professional. iMagic Consult does not upload
+          patient clinical data to Supabase or to any other external server
+          operated by the extension.
+        </div>
+
+        <p>
+          The extension processes this information solely to provide its intended
+          workflow and documentation assistance functionality.
+        </p>
+      </section>
+
+      <section>
+        <h2>How Information Is Used</h2>
+        <p>Information is used to:</p>
+
+        <ul>
+          <li>Authenticate authorized internal users</li>
+          <li>Maintain active user sessions</li>
+          <li>Load and manage consultation templates</li>
+          <li>Populate clinical documentation fields within authorized systems</li>
+          <li>Improve workflow efficiency for authorized healthcare professionals</li>
+          <li>Store extension preferences and configuration locally</li>
+          <li>Deliver the intended functionality of the extension</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Storage of Information</h2>
+
+        <p>Information may be stored in the following ways:</p>
+
+        <ul>
+          <li>
+            Account and authentication-related information may be processed
+            through secure authentication infrastructure used to control
+            authorized access.
+          </li>
+          <li>
+            Extension preferences, templates, selectors, and configuration data
+            may be stored locally within Chrome Extension storage.
+          </li>
+          <li>
+            Clinical workflow data and patient-related data remain local to the
+            user’s browser session and the authorized healthcare system. The
+            extension does not upload such clinical data to Supabase or to any
+            other external server operated by the extension.
+          </li>
+        </ul>
+
+        <p>
+          Data retention depends on operational requirements, browser storage
+          behavior, and applicable healthcare system policies.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data Sharing</h2>
+
+        <p>
+          We do not sell user data, clinical data, or patient-related data.
+        </p>
+
+        <p>
+          iMagic Consult does not share patient clinical data with Supabase,
+          analytics providers, advertising networks, or other third-party
+          services.
+        </p>
+
+        <p>Information may be shared only in limited circumstances, such as:</p>
+
+        <ul>
+          <li>
+            Authentication-related processing necessary to verify authorized
+            internal users.
+          </li>
+          <li>
+            The authorized healthcare system where the healthcare professional
+            is already logged in and permitted to access the relevant data.
+          </li>
+          <li>
+            Legal authorities when required by applicable law.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Security</h2>
+
+        <p>
+          We implement reasonable technical and organizational safeguards
+          including:
+        </p>
+
+        <ul>
+          <li>Restricted access for authorized internal users only</li>
+          <li>Authenticated access controls</li>
+          <li>Session management</li>
+          <li>Secure transmission using HTTPS where network communication is required</li>
+          <li>Local browser-based processing for clinical workflow data</li>
+          <li>Limited use of external services only where necessary for authentication or extension operation</li>
+        </ul>
+
+        <p>
+          No method of transmission or storage is completely secure, and
+          absolute security cannot be guaranteed.
+        </p>
+      </section>
+
+      <section>
+        <h2>User Access and Availability</h2>
+
+        <p>
+          iMagic Consult is not available for unrestricted public use. The
+          extension is intended for selected internal users, members of an
+          authorized healthcare-related community, or healthcare professionals
+          who have been granted access.
+        </p>
+
+        <p>
+          There is no public self-service registration form within the extension.
+          User access is managed internally.
+        </p>
+      </section>
+
+      <section>
+        <h2>User Rights</h2>
+
+        <p>Users may request:</p>
+
+        <ul>
+          <li>Access to their account-related information</li>
+          <li>Correction of inaccurate account or configuration information</li>
+          <li>Deletion of locally stored extension configuration where applicable</li>
+          <li>Revocation of access where permitted by internal policy</li>
+        </ul>
+
+        <p>
+          Requests may be submitted through the contact information below.
+          Requests involving patient records may also be subject to the policies
+          of the relevant healthcare system or institution.
+        </p>
+      </section>
+
+      <section>
+        <h2>Third-Party Services</h2>
+
+        <p>
+          The extension may use limited third-party infrastructure services for
+          authentication or authorized extension operation, including:
+        </p>
+
+        <ul>
+          <li>Supabase Authentication</li>
+          <li>Supabase-related services for account/session management where applicable</li>
+        </ul>
+
+        <p>
+          Patient clinical data is not uploaded to Supabase by the extension.
+          Third-party services are governed by their own privacy and security
+          policies.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact Information</h2>
+
+        <p><strong>Developer:</strong> iMagic Consult</p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:your-support-email@example.com">
+            your-support-email@example.com
+          </a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Changes to This Policy</h2>
+
+        <p>
+          We may update this Privacy Policy periodically. Updates will be
+          published on this page with a revised effective date.
+        </p>
+      </section>
+
+      <footer class="footer">
+        &copy; 2026 iMagic Consult. All rights reserved.
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
